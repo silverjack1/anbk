@@ -1,0 +1,72 @@
+CRITICAL - 2021-12-21 21:18:09 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:22:03 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:23:29 --> array_push() expects parameter 1 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): array_push(1, '<li>1</li>')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 21:28:03 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:28:15 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:30:54 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:33:47 --> array_push() expects parameter 1 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): array_push(1, 'muhammad')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-21 21:36:35 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:37:08 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 21:37:10 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tampilhtml()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

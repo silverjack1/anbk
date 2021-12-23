@@ -1,0 +1,101 @@
+CRITICAL - 2021-12-20 04:24:34 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 07:51:08 --> Function name must be a string
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 07:56:44 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 07:58:48 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 07:59:02 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:02:03 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:10:13 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:15:37 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:17:43 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:29:26 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 08:30:59 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapusdata()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 18:02:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\anbk\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\anbk\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\anbk\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xampp\htdocs\anbk\app\Controllers\Home.php(38): CodeIgniter\BaseModel->findAll()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tulis()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 18:03:03 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\anbk\system\Model.php on line 184
+#0 C:\xampp\htdocs\anbk\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\anbk\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\xampp\htdocs\anbk\app\Controllers\Home.php(38): CodeIgniter\BaseModel->findAll()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->tulis()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 20:39:29 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\anbk\app\Controllers\Home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->cetak()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

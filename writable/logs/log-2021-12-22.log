@@ -1,0 +1,30 @@
+CRITICAL - 2021-12-22 04:23:52 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 04:24:48 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 04:25:32 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 04:25:52 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 21:14:45 --> Too few arguments to function App\Controllers\Home::hapus(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->hapus()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

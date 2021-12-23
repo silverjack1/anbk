@@ -1,0 +1,98 @@
+ERROR - 2021-12-18 03:32:35 --> Unknown column 'NamaSiswa' in 'field list'
+CRITICAL - 2021-12-18 03:32:35 --> Unknown column 'NamaSiswa' in 'field list'
+#0 C:\xampp\htdocs\anbk\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\htdocs\anbk\app\Controllers\Siswa.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->simpanExcel()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 03:34:04 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->simpanExcel()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-18 03:45:26 --> Undefined index: NIS
+#0 C:\xampp\htdocs\anbk\app\Controllers\Siswa.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->exportExcel()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-18 03:48:06 --> Class 'App\Controllers\Xls' not found
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->exportExcel()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-18 04:17:27 --> Call to undefined method PhpOffice\PhpSpreadsheet\Style\Color::setFill()
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->exportExcel()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-18 05:33:29 --> hash(): Unknown hashing algorithm: muhammad
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash(): Unknown...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Siswa.php(46): hash('muhammad', 'Jakarta 5')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->simpanExcel()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-18 06:08:07 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Siswa->simpanExcel()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-18 22:36:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\anbk\app\Views\siswa.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\anbk\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anbk\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('siswa', Array, true)
+#4 C:\xampp\htdocs\anbk\app\Controllers\Home.php(41): view('siswa', Array)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->baca()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 22:36:14 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\anbk\app\Views\siswa.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\anbk\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anbk\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('siswa', Array, true)
+#4 C:\xampp\htdocs\anbk\app\Controllers\Home.php(41): view('siswa', Array)
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->baca()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 22:38:25 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\anbk\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('home/baca')
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('home/baca')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-18 22:43:30 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(720): CodeIgniter\Database\BaseBuilder->_whereIn('id', 10, false, 'AND ', NULL)
+#1 C:\xampp\htdocs\anbk\system\Model.php(723): CodeIgniter\Database\BaseBuilder->whereIn('id', 10)
+#2 C:\xampp\htdocs\anbk\app\Controllers\Home.php(40): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->baca()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-18 22:44:33 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(720): CodeIgniter\Database\BaseBuilder->_whereIn('id', 11, false, 'AND ', NULL)
+#1 C:\xampp\htdocs\anbk\system\Model.php(723): CodeIgniter\Database\BaseBuilder->whereIn('id', 11)
+#2 C:\xampp\htdocs\anbk\app\Controllers\Home.php(41): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->baca()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
