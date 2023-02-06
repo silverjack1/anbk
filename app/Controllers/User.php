@@ -31,8 +31,8 @@ class User extends BaseController
                 $no++;
                 $row = [];
                 $row[] = $no;
-                $row[] = $list->nis;
                 $row[] = $list->nama_siswa;
+                $row[] = $list->alamat;
                 $data[] = $row;
             }
 

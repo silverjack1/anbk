@@ -136,3 +136,93 @@ CRITICAL - 2023-02-05 09:31:09 --> Undefined property: App\Controllers\Siswa::$d
 #3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2023-02-05 20:50:30 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:50:34 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:51:06 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:51:17 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:53:20 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:53:46 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:54:53 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:54:57 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:57:52 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-05 20:58:47 --> Undefined offset: 2
+#0 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\app\Models\UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+#2 C:\xampp\htdocs\anbk\app\Controllers\User.php(26): App\Models\UserDatatable->getDatatables()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\User->ajaxList()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
