@@ -1,0 +1,30 @@
+CRITICAL - 2022-01-07 01:36:30 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\anbk\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\anbk\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\anbk\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\anbk\app\Controllers\Enkripsi.php(12): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(801): App\Controllers\Enkripsi->__construct()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-07 01:36:42 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\anbk\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\anbk\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\anbk\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\anbk\app\Controllers\Enkripsi.php(12): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(801): App\Controllers\Enkripsi->__construct()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-07 01:37:14 --> Encrypter needs a starter key.
+#0 C:\xampp\htdocs\anbk\system\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\anbk\system\Config\Services.php(215): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\anbk\system\Config\BaseService.php(248): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\anbk\app\Controllers\Enkripsi.php(12): CodeIgniter\Config\BaseService::__callStatic('encrypter', Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(801): App\Controllers\Enkripsi->__construct()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

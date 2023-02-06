@@ -1,0 +1,18 @@
+CRITICAL - 2021-12-23 07:05:35 --> Invalid file: input.php
+#0 C:\xampp\htdocs\anbk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input.php')
+#1 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('input', Array, true)
+#2 C:\xampp\htdocs\anbk\app\Controllers\Home.php(115): view('input', Array)
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->inputcek()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 07:05:55 --> Invalid file: input.php
+#0 C:\xampp\htdocs\anbk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('input.php')
+#1 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('input', Array, true)
+#2 C:\xampp\htdocs\anbk\app\Controllers\Home.php(115): view('input', Array)
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->inputcek()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

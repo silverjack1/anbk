@@ -1,0 +1,22 @@
+CRITICAL - 2022-01-10 07:21:29 --> Too few arguments to function App\Controllers\Home::denkripsi(), 0 passed in C:\xampp\htdocs\anbk\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->denkripsi()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-10 22:01:29 --> openssl_decrypt(): Key length cannot be set for the cipher method
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt...', 'C:\\xampp\\htdocs...', 155, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Home.php(155): openssl_decrypt('u46oUbS0', 'AES-128-CTR', 'jakarta', 5, '123456789101112...')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->denkripsi('u46oUbS0')
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-10 22:01:36 --> openssl_encrypt(): Key length cannot be set for the cipher method
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_encrypt...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Home.php(140): openssl_encrypt('Andika', 'AES-128-CTR', 'jakarta', 5, '123456789101112...')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->enkripsi()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

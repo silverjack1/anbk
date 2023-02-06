@@ -3,6 +3,10 @@ use App\Models\ModelSiswa;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Dompdf\Dompdf;
+use CodeIgniter\Entity;
+use Myth\Auth\Authorization\GroupModel;
+use Myth\Auth\Authorization\PermissionModel;
+use Myth\Auth\Password;
 
 class Siswa extends BaseController
 {
@@ -25,6 +29,7 @@ class Siswa extends BaseController
 			$spreadsheet = $render->load($file_excel);
 	
 			$data = $spreadsheet->getActiveSheet()->toArray();
+			$error = '';
 			foreach($data as $x => $row) {
 				if ($x == 0) {
 					continue;
@@ -37,16 +42,19 @@ class Siswa extends BaseController
 				$db = \Config\Database::connect();
 
 				$cekNis = $db->table('siswa')->getWhere(['nis'=>$Nis])->getResult();
-
+				
+		
 				if(count($cekNis) > 0) {
-					session()->setFlashdata('message','<b style="color:red">Data Gagal di Import NIS ada yang sama</b>');
+					$error .= ' => ' . $Nis;
+					session()->setFlashdata('message','<b style="color:red">Data Gagal di Import NIS ada yang sama</b>' . $error);
 				} else {
-                    $Alamat = password_hash($Alamat, PASSWORD_DEFAULT);
-                    dd($Alamat);
-				$simpandata = [
-					'nis' => $Nis, 'nama_siswa' => $NamaSiswa, 'alamat'=> $Alamat
-				];
-	
+					$Alamat=Password::hash($Alamat);
+                    // $Alamat = password_hash($Alamat, PASSWORD_DEFAULT);
+                    // dd($Alamat);
+					$simpandata = [
+						'nis' => $Nis, 'nama_siswa' => $NamaSiswa, 'alamat'=> $Alamat
+					];
+				
 				$db->table('siswa')->insert($simpandata);
 				session()->setFlashdata('message','Berhasil import excel'); 
 			}
@@ -116,7 +124,7 @@ class Siswa extends BaseController
 
         // load HTML content
         $data['Siswa'] = $this->siswa->findAll();
-        $dompdf->loadHtml(view('data_siswa',$data));
+        $dompdf->loadHtml(view('datapdf',$data));
 
         // (optional) setup the paper size and orientation
         $dompdf->setPaper('A4', 'landscape');
