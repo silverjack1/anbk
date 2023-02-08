@@ -5,6 +5,7 @@ use App\Models\UserDatatable;
 use Config\Services;
 
 
+
 class User extends BaseController
 {
    
@@ -45,5 +46,9 @@ class User extends BaseController
 
             echo json_encode($output);
         }
+    }
+    
+    public function ambil(){
+        
     }
 }
