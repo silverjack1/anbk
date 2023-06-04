@@ -1,0 +1,48 @@
+CRITICAL - 2023-05-28 06:22:56 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-28 06:47:26 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-28 06:50:37 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-28 07:13:36 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\anbk\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('rapor')
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('rapor')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-28 07:44:53 --> Class 'App\Controllers\RecursiveIteratorIterator' not found
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->kompas()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-28 09:18:14 --> Undefined variable: data_siswa
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-28 09:18:51 --> Undefined variable: data_siswa
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

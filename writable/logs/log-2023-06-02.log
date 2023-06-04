@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-02 04:32:10 --> You need to install the imagick extension to use this back end
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(112): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->qrcode()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-02 04:35:55 --> Invalid data at path "C:\xampp\htdocs\anbk\app\Controllers/assets/symfony.png"
+#0 C:\xampp\htdocs\anbk\vendor\endroid\qr-code\src\Writer\PngWriter.php(129): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\anbk\vendor\endroid\qr-code\src\Writer\PngWriter.php(117): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(133): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->qrcode()
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-02 05:22:11 --> Some message goes here
+#0 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->qrcode()
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

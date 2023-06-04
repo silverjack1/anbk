@@ -1,0 +1,89 @@
+CRITICAL - 2023-04-04 00:06:25 --> Undefined index: nama
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 01:05:46 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 01:06:18 --> Undefined index: semester
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 01:35:51 --> ksort() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ksort() expects...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(72): ksort('Yunita Pia Usam...')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-04 01:50:18 --> array_multisort(): Argument #1 is expected to be an array or a sort flag
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(71): array_multisort('5A')
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-04 02:14:45 --> Undefined index: nama
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 02:20:07 --> Only variables should be passed by reference
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 02:21:01 --> Only variables should be passed by reference
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 02:31:17 --> ksort() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ksort() expects...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(63): ksort('Yunita Pia Usam...')
+#2 [internal function]: App\Controllers\Rapor->App\Controllers\{closure}('Yunita Pia Usam...', 'nama')
+#3 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(64): array_walk(Array, Object(Closure))
+#4 [internal function]: App\Controllers\Rapor->App\Controllers\{closure}(Array, 11)
+#5 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(65): array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-04 02:31:29 --> ksort() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ksort() expects...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(63): ksort('Yunita Pia Usam...')
+#2 [internal function]: App\Controllers\Rapor->App\Controllers\{closure}('Yunita Pia Usam...', 'nama')
+#3 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(64): array_walk(Array, Object(Closure))
+#4 [internal function]: App\Controllers\Rapor->App\Controllers\{closure}(Array, 11)
+#5 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(65): array_walk(Array, Object(Closure))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-04 23:25:45 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

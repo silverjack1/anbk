@@ -5,11 +5,20 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e0b11a1ff494a487927139e40d3b5bab2895a40a',
+        'reference' => 'b1e78ff49aac92d1b669a015085c8ec572cc2d0e',
         'name' => 'codeigniter4/codeigniter4',
         'dev' => true,
     ),
     'versions' => array(
+        'bacon/bacon-qr-code' => array(
+            'pretty_version' => '2.0.8',
+            'version' => '2.0.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bacon/bacon-qr-code',
+            'aliases' => array(),
+            'reference' => '8674e51bb65af933a5ffaf1c308a660387c35c22',
+            'dev_requirement' => false,
+        ),
         'codeigniter/coding-standard' => array(
             'pretty_version' => 'v1.2.0',
             'version' => '1.2.0.0',
@@ -25,7 +34,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e0b11a1ff494a487927139e40d3b5bab2895a40a',
+            'reference' => 'b1e78ff49aac92d1b669a015085c8ec572cc2d0e',
             'dev_requirement' => false,
         ),
         'composer/pcre' => array(
@@ -54,6 +63,15 @@
             'aliases' => array(),
             'reference' => '6555461e76962fd0379c444c46fd558a0fcfb65e',
             'dev_requirement' => true,
+        ),
+        'dasprid/enum' => array(
+            'pretty_version' => '1.0.4',
+            'version' => '1.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dasprid/enum',
+            'aliases' => array(),
+            'reference' => '8e6b6ea76eabbf19ea2bf5b67b98e1860474012f',
+            'dev_requirement' => false,
         ),
         'doctrine/annotations' => array(
             'pretty_version' => '1.13.2',
@@ -89,6 +107,15 @@
             'install_path' => __DIR__ . '/../dompdf/dompdf',
             'aliases' => array(),
             'reference' => 'de4aad040737a89fae2129cdeb0f79c45513128d',
+            'dev_requirement' => false,
+        ),
+        'endroid/qr-code' => array(
+            'pretty_version' => '4.6.1',
+            'version' => '4.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../endroid/qr-code',
+            'aliases' => array(),
+            'reference' => 'a75c913b0e4d6ad275e49a2c1de1cacffc6c2184',
             'dev_requirement' => false,
         ),
         'ezyang/htmlpurifier' => array(

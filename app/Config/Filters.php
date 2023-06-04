@@ -19,7 +19,7 @@ class Filters extends BaseConfig
         'csrf'     => CSRF::class,
         'toolbar'  => DebugToolbar::class,
         'honeypot' => Honeypot::class,
-        'login'      => \Myth\Auth\Filters\LoginFilter::class, 
+        'login'      => \Myth\Auth\Filters\LoginFilter::class,
         'role'       => \Myth\Auth\Filters\RoleFilter::class,
         'permission' => \Myth\Auth\Filters\PermissionFilter::class,
     ];
@@ -34,7 +34,7 @@ class Filters extends BaseConfig
         'before' => [
             // 'honeypot',
             // 'csrf',
-            'login' => ['except' => ['login', 'register','forgot']],
+            'login' => ['except' => ['login', 'register', 'forgot', 'products', 'products/*']],
         ],
         'after' => [
             'toolbar',

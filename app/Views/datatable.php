@@ -24,7 +24,7 @@
                         User
                         <a href="" class="btn btn-primary btn-sm float-right">New Record</a>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body table-responsive">
 
                         <table id="user-table" class="table table-striped table-bordered table-hover">
                             <thead>

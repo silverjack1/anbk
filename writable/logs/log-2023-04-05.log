@@ -1,0 +1,152 @@
+ERROR - 2023-04-05 00:03:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-05 00:03:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anbk\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anbk\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\anbk\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('rapor', 'before')
+#9 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-05 00:04:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-05 00:04:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anbk\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anbk\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\anbk\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('rapor', 'before')
+#9 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-05 00:04:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-05 00:04:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anbk\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anbk\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\anbk\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-05 00:04:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-05 00:04:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anbk\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anbk\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\anbk\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('rapor', 'before')
+#9 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-04-05 00:05:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-05 00:05:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\anbk\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\anbk\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\anbk\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\anbk\app\ThirdParty\auth\src\Filters\LoginFilter.php(45): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\anbk\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 C:\xampp\htdocs\anbk\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('rapor', 'before')
+#9 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-05 00:13:09 --> Call to undefined function App\Controllers\deepSort()
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(52): App\Controllers\Rapor->deepSort(Array, 'ksort')
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-05 00:26:24 --> Unknown column 'm.id' in 'on clause'
+CRITICAL - 2023-04-05 00:26:24 --> Unknown column 'm.id' in 'on clause'
+#0 C:\xampp\htdocs\anbk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\r\n     ...', 0)
+#1 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\r\n     ...')
+#2 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\r\n     ...')
+#3 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(35): CodeIgniter\Database\BaseConnection->query('SELECT *\r\n     ...')
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-05 00:26:45 --> Undefined index: mapel
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->index()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-05 00:42:10 --> Table 'rapor.nilai' doesn't exist
+CRITICAL - 2023-04-05 00:42:10 --> Table 'rapor.nilai' doesn't exist
+#0 C:\xampp\htdocs\anbk\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\anbk\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(99): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->data()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-05 00:45:29 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(102): array_push(NULL, Array)
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->data()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-05 00:46:06 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(102): array_push(NULL, Array)
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->data()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-05 01:13:04 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(104): array_push(NULL, Array)
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->data()
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-05 01:15:43 --> Array to string conversion
+#0 C:\xampp\htdocs\anbk\app\Controllers\Rapor.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Rapor->data()
+#2 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rapor))
+#3 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

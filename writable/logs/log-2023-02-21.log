@@ -1,0 +1,57 @@
+CRITICAL - 2023-02-21 22:40:29 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\anbk\app\Views\layout\header.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\anbk\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anbk\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\anbk\system\View\View.php(432): CodeIgniter\View\View->render('layout/header', NULL, true)
+#4 C:\xampp\htdocs\anbk\app\Views\layout\fullpage.php(21): CodeIgniter\View\View->include('layout/header')
+#5 C:\xampp\htdocs\anbk\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\anbk\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\anbk\system\View\View.php(230): CodeIgniter\View\View->render('layout/fullpage', Array, true)
+#8 C:\xampp\htdocs\anbk\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#9 C:\xampp\htdocs\anbk\app\Controllers\Home.php(19): view('user/index', Array)
+#10 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-21 22:50:24 --> Class 'App\Controllers\Api\BaseController' not found
+#0 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anbk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-21 23:23:07 --> There is no data to insert.
+#0 C:\xampp\htdocs\anbk\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\anbk\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\xampp\htdocs\anbk\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\anbk\app\Controllers\Products.php(28): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-21 23:24:18 --> There is no data to update.
+#0 C:\xampp\htdocs\anbk\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\anbk\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\anbk\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp\htdocs\anbk\app\Controllers\Products.php(39): CodeIgniter\Model->update('2', Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Products->update('2')
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-21 23:24:43 --> There is no data to update.
+#0 C:\xampp\htdocs\anbk\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\anbk\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\anbk\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\xampp\htdocs\anbk\app\Controllers\Products.php(39): CodeIgniter\Model->update('2', Array)
+#4 C:\xampp\htdocs\anbk\system\CodeIgniter.php(824): App\Controllers\Products->update('2')
+#5 C:\xampp\htdocs\anbk\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\anbk\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anbk\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

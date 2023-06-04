@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+
 use App\Models\UserDatatable;
 use Config\Services;
 
@@ -8,7 +9,7 @@ use Config\Services;
 
 class User extends BaseController
 {
-   
+
     public function index()
     {
         $data = [
@@ -47,8 +48,9 @@ class User extends BaseController
             echo json_encode($output);
         }
     }
-    
-    public function ambil(){
-        
+
+    public function alpine()
+    {
+        return view('alpine');
     }
 }
